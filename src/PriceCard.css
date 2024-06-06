@@ -1,0 +1,63 @@
+h4 {
+  margin-bottom: 5px;
+  line-height: 0;
+}
+.price-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price-card h6 {
+  margin-top: 0;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: 100;
+  color: #333;
+}
+
+.features {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.features li i {
+  margin-right: 6px;
+}
+
+.features .disabled-feature {
+  color: grey;
+}
+
+.features .disabled-feature i.bi-x {
+  color: grey;
+}
+
+.customType {
+  color: #6c757d;
+  font-weight: bold;
+}
+
+.lighterHr {
+  border: 0;
+  height: 1px;
+  background: #ddd; /* Lighter color */
+  margin-bottom: 20px;
+}
+
+.buttonStyle {
+  width: 100%;
+  border-radius: 18px;
+}
